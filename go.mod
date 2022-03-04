@@ -3,6 +3,7 @@ module github.com/openshift/managed-node-metadata-operator
 go 1.17
 
 require (
+	github.com/golang/mock v1.5.0
 	github.com/openshift/api v0.0.0-20220222102030-354aa98a475c
 	k8s.io/api v0.23.0
 	k8s.io/apimachinery v0.23.0
